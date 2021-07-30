@@ -28,7 +28,7 @@
                             <a class="nav-link text-white" href="#news">News</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Contract</a>
+                            <a class="nav-link text-white" href="#contact">Contract</a>
                         </li>
                     </ul>
                     <button class="btn btn-danger ms-5 px-4 text-white fw-bold">Login</button>
@@ -36,38 +36,39 @@
             </div>
         </nav>
         <!-- top section  -->
+        <div class="container g-5">
+            <div class="row row-cols-1 row-cols-lg-2">
+                <div class="col">
+                    <h6>Computer-controlled digital transistorized with electronic advance</h6>
+                    <h1 class="my-3 fw-bold">Honda CBR 300R</h1>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-danger fw-bold px-5" data-bs-toggle="modal" data-bs-target="#exampleModal">Purchase</button>
 
-        <div class="container row row-cols-1 row-cols-lg-2">
-            <div class="col">
-                <h6 class="my-0">Computer-controlled digital transistorized with electronic advance</h6>
-                <h1 class="my-3 fw-bold">Honda CBR 300R</h1>
-                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-danger fw-bold px-5" data-bs-toggle="modal" data-bs-target="#exampleModal">Purchase</button>
-
-                <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title font-bold text-black-50" id="exampleModalLabel">Purchase Modal
-                                </h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body text-black-50">
-                                <P>This is the gorgeous purchase modal !!!</P>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Save
-                                    changes</button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title font-bold text-black-50" id="exampleModalLabel">Purchase Modal
+                                    </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body text-black-50">
+                                    <P>This is the gorgeous purchase modal !!!</P>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Save
+                                        changes</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col">
-                <img class="img-fluid" src="images/header-bike.png" alt="">
+                <div class="col">
+                    <img class="img-fluid" src="images/header-bike.png" alt="">
+                </div>
             </div>
         </div>
     </section>
@@ -75,7 +76,7 @@
 
 <body>
     <main>
-        <!-- bike  -->
+        <!-- top bike section  -->
         <section id="shop" class="container text-center">
             <h1 class="mt-5 fw-bold">Fetured Bikes 2021</h1>
             <p><span class="text-danger fw-bold">Best b<u>ike colle</u>ction</span></p>
@@ -94,7 +95,7 @@
         <!-- latest News  -->
         <Section id="news" class="container">
             <h1 class="text-center py-5 fw-bolder mt-5">Latest News</h1>
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
                 <div class="col">
                     <div class="card h-100 border-1">
                         <img class="m-3" src="images/bike-1.png" alt="">
@@ -140,10 +141,10 @@
                 </div>
             </div>
         </Section>
-        <!-- Happy Clients says  -->
+        <!-- Happy Clients says section  -->
         <section class="container">
             <h1 class="text-center py-5 mt-5 fw-bolder">Happy <span class="text-danger">Clients says</span></h1>
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
                 <div class="col">
                     <div class="card h-100 border-1 text-center">
                         <img class="mx-5 pt-5" src="images/user-1.png" alt="">
@@ -199,7 +200,7 @@
             <div class="container">
                 <div class="row row-cols-1 row-cols-lg-2">
                     <div class="col">
-                        <img class="img-fluid" src="images/faq.png" alt="">
+                        <img class="img-fluid px-5" src="images/faq.png" alt="">
                     </div>
                     <div class="col">
                         <div class="accordion" id="accordionExample">
@@ -259,38 +260,58 @@
                 </div>
             </div>
         </section>
+        <!-- input information  -->
+        <section style="height: 300px;" class="container bg-light my-5 d-flex justify-content-center align-items-center rounded-3" id="contact">
+            <div>
+                <h1>LET'S STAY IN TOUCH</h1>
+                <p>Get updates on sales, specials and more ...</p>
+                <input class="form-control" type="text" placeholder="Enter your email address">
+                <br>
+                <button class="btn btn-danger text-white fw-bold">Submit</button>
+            </div>
+        </section>
+        <section class="d-grid col-4 mx-auto">
+            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Click Here</button>
+
+            <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+                <div class="offcanvas-header">
+                    <h5 id="offcanvasTopLabel">Offcanvas Header</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <p>Smiley face deserves everything...</p>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer class=" container-fluid bg-dark ">
-        <section class=" container text-white py-5 mt-5 ">
-            <div class=" d-flex flex-row text-white ">
-                <div class=" mx-2 ">
+    <footer class="container-fluid bg-dark">
+        <section class="container text-white py-5 mt-5">
+            <div class="d-flex flex-row text-white">
+                <div class="mx-2">
                     <h6>Download Now</h6>
                 </div>
-                <div class=" mx-2 ">
+                <div class="mx-2">
                     <h6>Licence</h6>
                 </div>
             </div>
-            <div class=" d-flex flex-row text-white ">
-                <div class=" mx-2 ">
+            <div class="d-flex flex-row text-white">
+                <div class="mx-2">
                     <h6>About</h6>
                 </div>
-                <div class=" mx-2 ">
+                <div class="mx-2">
                     <h6>Features</h6>
                 </div>
-                <div class=" mx-2 ">
+                <div class="mx-2">
                     <h6>Pricing</h6>
                 </div>
-                <div class=" mx-2 ">
+                <div class="mx-2">
                     <h6>Careers</h6>
                 </div>
-                <div class=" mx-2 ">
+                <div class="mx-2">
                     <h6>Help</h6>
                 </div>
-                <div class=" mx-2 ">
-                    <h6>Privacy Policy</h6>
-                </div>
             </div>
-            <div class=" mx-2 ">
+            <div class="mx-2">
                 <p>Fakrul Islam &copy; 2021. All Rights Reserved</p>
             </div>
         </section>
